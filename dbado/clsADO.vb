@@ -2897,7 +2897,7 @@ Public Class clsTableHandleDos
         Else
             Dim b() As Byte = System.IO.File.ReadAllBytes(mFullPath)
             Dim s As New StringBuilder
-            For i As Int16 = 0 To b.Length - 1
+            For i As Int64 = 0 To b.Length - 1
                 s.Append(Chr(b(i)))
             Next
             Result = System.Text.Encoding.Default.GetString(b) ' determine encoding automatically (true)
