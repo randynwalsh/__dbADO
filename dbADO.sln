@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "dbADO", "dbADO\dbADO.vbproj", "{A30A20C5-C366-435E-93CA-BE9595F04629}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "dbAdoTest", "dbAdoTest\dbAdoTest.vbproj", "{DEE8D1EC-5596-46E7-922C-555635167AFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30A20C5-C366-435E-93CA-BE9595F04629}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{A30A20C5-C366-435E-93CA-BE9595F04629}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{A30A20C5-C366-435E-93CA-BE9595F04629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30A20C5-C366-435E-93CA-BE9595F04629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE8D1EC-5596-46E7-922C-555635167AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE8D1EC-5596-46E7-922C-555635167AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE8D1EC-5596-46E7-922C-555635167AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE8D1EC-5596-46E7-922C-555635167AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
