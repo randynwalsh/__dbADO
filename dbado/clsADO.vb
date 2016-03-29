@@ -28,8 +28,8 @@ Public Class clsHTAConnection
     Public myDBConnection As clsDBConnection
     Dim cachedfHandles As Collection
 
-    ' windowDotLocation = C:\Users\rwalsh\Dropbox\_src\__HTA\tcl.hta
-    ' startAccountName = "hta"
+    '  windowDotLocation = C:\Users\rwalsh\Dropbox\_src\__HTA\tcl.hta
+    '  startAccountName = "hta"
     Public Sub adoInit(ByVal windowDotLocation As String, ByVal startAccountName As String)
         Dim Errors As String = ""
 
